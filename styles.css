@@ -1,0 +1,31 @@
+#wholeBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ED0E0F;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 1%;
+}
+
+#title {
+    color: #FFC947;
+}
+
+#drawBox {
+    height: 960px;
+    width: 960px;
+    background-color: #FAF9F7;
+    border-radius: 5%;
+}
+
+#buttons {
+    padding: 10px;
+}
+
+#buttons > button {
+    background-color: #FBFAFF;
+}
