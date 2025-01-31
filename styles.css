@@ -15,9 +15,29 @@
     border-style: solid;
 }
 
+#titleDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #title {
     color: #FFC947;
     font-family: "Lobster";
+    display: inline;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #FFC947;
+    font-weight: 800;
+    font-size: 20px;
+    display: inline;
 }
 
 #drawBox {
@@ -48,6 +68,6 @@
     width: 100px;
     margin: 30px;
     font-weight: 800;
-    font-style: italic;
     text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
 }
