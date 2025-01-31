@@ -31,6 +31,9 @@ function removeDivs(drawBox) {
     };
 };
 
+// Run shake animation
+// To be written
+
 // Change div style on hover
 drawBox.addEventListener("mouseover", (event) => {
     event.target.setAttribute("class", "drawnBox");
