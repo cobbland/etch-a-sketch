@@ -1,31 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 #wholeBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #ED0E0F;
-    width: 1000px;
+    width: 1060px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
     border-radius: 1%;
+    border-color: black;
+    border-style: solid;
 }
 
 #title {
     color: #FFC947;
+    font-family: "Lobster";
 }
 
 #drawBox {
     height: 960px;
     width: 960px;
-    background-color: #FAF9F7;
+    background-color: #EAE9E7;
     border-radius: 5%;
+    border-color: black;
+    border-style: solid;
+}
+
+.drawnBox {
+    background-color: #3D3E40;
 }
 
 #buttons {
-    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
 }
 
 #buttons > button {
     background-color: #FBFAFF;
+    border-radius: 100%;
+    border-color: black;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
 }
