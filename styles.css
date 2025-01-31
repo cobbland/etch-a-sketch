@@ -15,8 +15,7 @@ body {
     margin-right: auto;
     margin-top: 20px;
     border-radius: 1%;
-    border-color: #202021;
-    border-style: solid;
+    border: 10px solid #202021;
 }
 
 #titleDiv {
@@ -49,8 +48,7 @@ body {
     width: 960px;
     background-color: #EAE9E7;
     border-radius: 5%;
-    border-color: 202021;
-    border-style: solid;
+    border: 5px solid #202021;
 }
 
 .drawnBox {
@@ -66,8 +64,7 @@ body {
 #buttons > button {
     background-color: #FBFAFF;
     border-radius: 100%;
-    border-color: #202021;
-    border-style: solid;
+    border: 5px solid #202021;
     height: 100px;
     width: 100px;
     margin: 30px;
