@@ -31,6 +31,7 @@ body {
     align-self: center;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 37px;
 }
 
 .subtitle {
@@ -47,8 +48,14 @@ body {
     height: 960px;
     width: 960px;
     background-color: #EAE9E7;
-    border-radius: 5%;
+    border-radius: 3%;
     border: 5px solid #202021;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.undrawnBox {
+
 }
 
 .drawnBox {
