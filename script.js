@@ -21,6 +21,7 @@ function createDivs(divsNum) {
 function clearDivs(drawBox) {
     for (const child of drawBox.childNodes) {
         child.removeAttribute("class", "drawnBox");
+        child.setAttribute("class", "undrawnBox");
     };
 };
 
