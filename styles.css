@@ -2,6 +2,11 @@
 
 body {
     background-color: #0086C5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
 }
 
 #wholeBox {
@@ -11,9 +16,7 @@ body {
     align-items: center;
     background-color: #ED0E0F;
     width: 1060px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    margin: auto;
     border-radius: 3%;
     border: 10px solid #202021;
 }
